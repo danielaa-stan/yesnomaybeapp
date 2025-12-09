@@ -1,0 +1,45 @@
+name: yesnomaybeapp
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  firebase_analytics: ^12.0.4
+  firebase_crashlytics: ^5.0.3
+  shared_preferences: ^2.5.3
+  cloud_firestore: ^6.1.0
+  provider: ^6.1.5+1
+  image_picker: ^1.2.1
+  supabase_flutter: ^2.10.3
+
+  flutter_localizations: # Provides localization framework for Flutter
+    sdk: flutter
+  intl: ^0.20.2 # Helps with localization of strings, numbers, dates, etc.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true
+
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "364501198645",
+    "project_id": "yesnomaybeapp-e6579",
+    "storage_bucket": "yesnomaybeapp-e6579.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364501198645:android:ed8e154d875b65f00d4e7c",
+        "android_client_info": {
+          "package_name": "com.example.yesnomaybeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Nxf9p0jIYIDWwxtknrjWRh209szpmUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
