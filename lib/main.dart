@@ -5,7 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:flutter/foundation.dart';
-import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+//import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'providers/polls_provider.dart';
 import 'package:provider/provider.dart';
@@ -26,7 +26,7 @@ void main() async {
     anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJjamlnbGNwb3Z1c290cHhzaG94Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ0MjcxNDksImV4cCI6MjA4MDAwMzE0OX0.fz3J1EMjQAsjzLnsBE4sNXwbbTIvDkeQfz53IRMmkvc',
   );
 
-  FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
+  //FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
   PlatformDispatcher.instance.onError = (error, stack) {
     FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
     return true;
